@@ -1,4 +1,4 @@
-# VBA-challenge -The VBA of Wall Street
+# VBA-challenge 
 VBA-Challenge to make a Stock Market Analysis.
 
 ## Background
@@ -7,11 +7,8 @@ This project is a VBA scripting to analyze real stock market data.This analysis 
 [Test Data ](./VBA_Alphabetical_testing/alphabetical_testing.vbs) vbs file &
 [Stock Data](./VBA_Stock_data/Stock_Market_Analysiss.vbs) vbs file
 
-![img](Images/ezgif.gif)
 
-Source: https://gfycat.com/babyishbetterhammerheadbird
 
-## Solution 
 The script loop through all the stocks data once and the following information displayed.
 
 ## Solution 1 Ticker Symbol
