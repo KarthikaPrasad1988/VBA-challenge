@@ -7,25 +7,30 @@ This project is a VBA scripting to analyze real stock market data.This analysis 
 Create a script that loops through all the stocks for one year and outputs the following information:
 
 The ticker symbol
+Solution
+The script loop through all the stocks data once and the following information displayed.
 
-Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+Solution 1 Ticker Symbol
+The script will sort the distinct ticker symbol in one column in column "I" with a column header "Ticker.
 
-The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+Solution 2 Yearly Change
+The script will excute Yearly change from opening price at the beginning of a given year to the closing price at the end of that year, and put the value on "J" column. For this task the code added a conditional formatting that highlighted positive change in green and negative change in red.
 
-The total stock volume of the stock. The result should match the following image:
+Solution 3 Precent Change
+The script also percent perform a change from opening price at the beginning of a given year to the closing price at the end of that year, and put the value on "K" column.
 
-Moderate solution
+Solution 4 Total stock Volume
+The total stock volume also genereated on "L" column.
 
-Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
+Solution 5 Greatest
+At last not least the solution also provide the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
+The solution look as follows:
 
-Hard solution
+2014 Stock Data
+2014
 
-Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
+2015 Stock Data
+2015
 
-NOTE
-Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
-
-Other Considerations
-Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes.
-
-Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
+2016 Stock Data
+2016
